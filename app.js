@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/Mike_Spotify-Dark/SpotifyDashboard
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 850,
-    width: 2000,
+    height: 899,
+    width: 2100,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
